@@ -5,7 +5,7 @@ const express=require("express");//express import
 const mongoose=require("mongoose");//mongoose req
 
 const bodyParser=require("body-parser");
-const cors=require("cors")
+const cors=require("cors");
 const {HoldingsModel} =require('./model/HoldingsModel');
 const { PositionsModel } = require("./model/PositionsModel");
 const {OrdersModel}=require("./model/HoldingsModel")
